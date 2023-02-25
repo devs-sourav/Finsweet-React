@@ -1,0 +1,161 @@
+#talk{
+    padding-top: 95px;
+    background: #1C1E53;
+}
+.talk_flex{
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.talk_left_text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #fff;
+    margin-top: 22px;
+    width: 400px;
+}
+.talk_right h2{
+    color: #fff !important;
+    width: 400px;
+}
+.talk_right p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #fff;
+    margin-top: 14px;
+    width: 400px;
+}
+.icon_talk{
+    margin-top: 28px;
+    display: flex;
+    column-gap: 26px;
+}
+.icon_talk li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon_talk li a{
+    color: #fff;
+    font-size: 18px;
+    transition: all linear 0.2s;
+}
+.icon_talk li a:hover{
+    color: #D97A06;
+}
+.talk_overlay{
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+    padding-top: 17px;
+    padding-left: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.talk_ov_right{
+    width: 133px;
+}
+.talk_ov_left{
+    width: 181px;
+}
+.talk_ov_left h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px ;
+    color: #282938;
+}
+.talk_ov_left a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.talk_ov_left a:hover{
+    color: #2405F2;
+}
+.talk_ov_right a:hover{
+    color: #2405F2;
+}
+.talk_ov_right h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px ;
+    color: #282938;
+}
+.talk_ov_right a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.3s;
+}
+.inq_btn{
+    margin-top: 26px;
+}
+.inq_btn .btn_work{
+    width: 100%;
+    text-align: center;
+    border-radius: 41px;
+
+}
+.inq_btn .btn_price{
+    margin-top: 25px;
+}
+.inq_btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ======================================================
+                Talk Part CSS End Here
+====================================================== */
+
+/* ======================================================
+                Footer Part CSS Start Here
+====================================================== */
+
+.foot_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot_left h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+}
+.foot_right{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+.foot_right li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.foot_right li a:hover{
+    color: #D97A06;
+}
+.foot_part{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}

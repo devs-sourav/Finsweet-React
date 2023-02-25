@@ -1,0 +1,64 @@
+#blog{
+    padding-bottom: 128px;
+    
+}
+.card_blog .blog_img{
+    width: 100%;
+    height: 285px;
+}
+.card_wrap{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card_blog .blog_img img{
+    width: 100%;
+    height: 100%;
+}
+.card_blog{
+    width: 405px;
+}
+.blog_card_text h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #282938;
+    margin-top: 35px;
+}
+.blog_card_text h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px ;
+    color: #282938;
+    margin-top: 16px;
+    width: 405px;
+}
+.blog_card_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #696974;
+    margin-top: 16px;
+    width: 405px;
+}
+.blg_btn_gap{
+    margin-top: 28px;
+}
+.blg_btn_gap .btn_price{
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.blg_btn_gap .btn_price i{
+    color: #282938;
+    transition: all linear 0.2s;
+}
+.blg_btn_gap .btn_price:hover{
+    color: #2405F2;
+}
+.blg_btn_gap:hover .btn_price i{
+    color: #2405F2;
+}

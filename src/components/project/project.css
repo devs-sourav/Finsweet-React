@@ -1,0 +1,120 @@
+#project{
+    padding: 128px 0;
+}
+.pro_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pro_head .btn .btn_price{
+    color: #282938;
+}
+.pro_head .btn .btn_price i{
+    color: #282938;
+}
+.pro_img_wrap{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pro_left{
+    width: 843px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_left:hover .pro_overlay{
+    left: 0;
+}
+
+.pro_left img{
+    width: 100%;
+    height: 100%;
+}
+.pro_overlay{
+    position: absolute;
+    left: -396px;
+    top: 0;
+    height: 100%;
+    width: 396px;
+    background: linear-gradient(rgba(28, 30, 83, 0.42),#2B1C53);
+    padding-left: 48px;
+    padding-bottom: 76px;
+    display: flex;
+    align-items: end;
+    transition: all linear 0.3s;
+}
+.pro_overlay .overlay_text h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #fff;
+    width: 313px;
+}
+.pro_overlay .overlay_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 16px;
+    width: 293px;
+}
+.pro_overlay .overlay_text .btn{
+    margin-top: 40px;
+}
+.pro_overlay .overlay_text .btn .btn_price{
+    color: #FCD980;
+}
+.pro_overlay .overlay_text .btn .btn_price i{
+    color: #FCD980;
+}
+
+.mgap{
+    margin-top: 32px;
+}
+.pro_img1{
+    width: 405px;
+    height: 284px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_img1 img{
+    width: 100%;
+    height: 100%;
+}
+.pro_img1:hover .pro_overlay1{
+    bottom:0;
+}
+.pro_overlay1{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.42),#2B1C53);
+    padding-left: 56px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: end;
+    transition: all linear 0.3s;
+}
+.pro_overlay1 .overlay_text h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+    color: #fff;
+    width: 280px;
+}
+.pro_overlay1 .overlay_text .btn .btn_price{
+    color: #FCD980;
+    margin-top: 10px;
+}
+.pro_overlay1 .overlay_text .btn .btn_price i{
+    color: #FCD980;
+}

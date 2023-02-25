@@ -1,0 +1,99 @@
+#inquiry{
+    padding-bottom:  128px;
+}
+.ing_wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inq_left_wrap{
+    width:656;
+    height: 691px;
+
+    background: url(../../../public/images/Inquiry_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inq_left{
+    width: 656px;
+    height: 691px;
+    background: rgba(28, 30, 83, 0.5);
+    padding-left: 96px;
+    padding-top: 96px;
+}
+.inq_left h2{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 74px ;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    width: 464px;
+}
+.inq_left p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    width: 464px;
+}
+.inq_right{
+    width: 624px;
+    height: 691px;
+    background: #1C1E53;
+    padding-left: 96px;
+    padding-top: 96px;
+    padding-right: 96px;
+}
+.inq_right_text h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px ;
+    color: #FFFFFF;
+}
+.inq_right_text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.inq_right form input{
+    padding: 18px 32px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.309);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px ;
+    color: #FFFFFF;
+    background: transparent;
+    margin-bottom: 16px;
+}
+.inq_right form input::placeholder{
+    color: #F4F6FC;
+}
+.inq_btn{
+    margin-top: 26px;
+}
+.inq_btn .btn_work{
+    width: 100%;
+    text-align: center;
+    border-radius: 41px;
+
+}
+.inq_btn .btn_price{
+    margin-top: 25px;
+}
+.inq_btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
